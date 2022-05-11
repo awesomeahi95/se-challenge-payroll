@@ -1,28 +1,11 @@
 # Wave Software Development Challenge
+This is my solution for the se-challenge-payroll API task.
 
-Applicants for the Full-stack Developer role at Wave must
-complete the following challenge, and submit a solution prior to the onsite
-interview.
-
-The purpose of this exercise is to create something that we can work on
-together during the onsite. We do this so that you get a chance to collaborate
-with Wavers during the interview in a situation where you know something better
-than us (it's your code, after all!)
-
-There isn't a hard deadline for this exercise; take as long as you need to
-complete it. However, in terms of total time spent actively working on the
-challenge, we ask that you not spend more than a few hours, as we value your
-time and are happy to leave things open to discussion in the on-site interview.
-
-Please use whatever programming language and framework you feel the most
-comfortable with.
-
-Feel free to email [dev.careers@waveapps.com](dev.careers@waveapps.com) if you
-have any questions.
+I have predominantly used the Python programming language for this solution.
 
 ## Project Description
 
-Imagine that this is the early days of Wave's history, and that we are prototyping a new payroll system API. A front end (that hasn't been developed yet, but will likely be a single page application) is going to use our API to achieve two goals:
+My API solution achieves these two goals:
 
 1. Upload a CSV file containing data on the number of hours worked per day per employee
 1. Retrieve a report detailing how much each employee should be paid in each _pay period_
