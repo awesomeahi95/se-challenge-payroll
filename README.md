@@ -10,26 +10,7 @@ My API solution achieves these two goals:
 1. Upload a CSV file containing data on the number of hours worked per day per employee
 1. Retrieve a report detailing how much each employee should be paid in each _pay period_
 
-All employees are paid by the hour (there are no salaried employees.) Employees belong to one of two _job groups_ which determine their wages; job group A is paid $20/hr, and job group B is paid $30/hr. Each employee is identified by a string called an "employee id" that is globally unique in our system.
-
-Hours are tracked per employee, per day in comma-separated value files (CSV).
-Each individual CSV file is known as a "time report", and will contain:
-
-1. A header, denoting the columns in the sheet (`date`, `hours worked`,
-   `employee id`, `job group`)
-1. 0 or more data rows
-
-In addition, the file name should be of the format `time-report-x.csv`,
-where `x` is the ID of the time report represented as an integer. For example, `time-report-42.csv` would represent a report with an ID of `42`.
-
-You can assume that:
-
-1. Columns will always be in that order.
-1. There will always be data in each column and the number of hours worked will always be greater than 0.
-1. There will always be a well-formed header line.
-1. There will always be a well-formed file name.
-
-A sample input file named `time-report-42.csv` is included in this repo.
+## Repository Files
 
 ### What your API must do:
 
