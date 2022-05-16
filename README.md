@@ -31,10 +31,10 @@ My API solution achieves these two goals:
    * [ 6. Revaluation and Deployment ](#Revaluation)
 </details>
 
+<a name="Repository_Files"></a>
 ## Repository Files
 
 <details>
-<a name="Repository_Files"></a>
 <summary>Show/Hide</summary>
 <br>
     
