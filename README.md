@@ -10,6 +10,26 @@ My API solution achieves these two goals:
 1. Upload a CSV file containing data on the number of hours worked per day per employee
 2. Retrieve a report detailing how much each employee should be paid in each _pay period_
 
+## Table of Contents
+<details open>
+<summary>Show/Hide</summary>
+<br>
+
+1. [ Repository Files ](#Repository_Files)
+2. [ Schema ](#Schema)    
+3. [ Endpoints ](#Endpoints)
+4. [ EInstructions ](#Instructions)
+   * [ 1. Webscraping, Early EDA, and Cleaning ](#Webscraping_Early_EDA_and_Cleaning)
+       * [ Webscraping ](#Webscraping)
+       * [ Early EDA and Cleaning](#Early_EDA_and_Cleaning)
+   * [ 2. Further EDA and Preprocessing ](#Further_EDA_and_Preprocessing) 
+   * [ 3. Modelling and Hyperparameter Tuning ](#Modelling)
+   * [ 4. Evaluation ](#Evaluation)
+       * [ Future Improvements ](#Future_Improvements)
+   * [ 5. Neural Network Modelling ](#Neural_Network_Modelling)
+   * [ 6. Revaluation and Deployment ](#Revaluation)
+</details>
+
 ## Repository Files
 
 <details>
@@ -48,7 +68,7 @@ This table is for archiving the CSV report numbers for retrieving later and to c
 ### Endpoints
 
 <details>
-<a name="Schema"></a>
+<a name="Endpoints"></a>
 <summary>Show/Hide</summary>
 <br>
     
@@ -67,6 +87,12 @@ We've agreed to build an API with the following endpoints to serve HTTP requests
 
 ### Instructions:
 
+<details>
+<a name="Instructions"></a>
+<summary>Show/Hide</summary>
+<br>
+    
+
 Please commit the following to this `README.md`:
 
 1. Instructions on how to build/run your application
@@ -74,6 +100,8 @@ Please commit the following to this `README.md`:
    - How did you test that your implementation was correct?
    - If this application was destined for a production environment, what would you add or change?
    - What compromises did you have to make as a result of the time constraints of this challenge?
+
+</details>
 
 ## Submission Instructions
 
