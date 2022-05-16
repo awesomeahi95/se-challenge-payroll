@@ -8,9 +8,9 @@ I have predominantly used the Python programming language for this solution.
 My API solution achieves these two goals:
 
 1. Upload a CSV file containing data on the number of hours worked per day per employee
-1. Retrieve a report detailing how much each employee should be paid in each _pay period_
+2. Retrieve a report detailing how much each employee should be paid in each _pay period_
 
-## Models
+## Models
 
 ReportDocument
 This table is where all the data from the CSV file is stored. So all the columns: date, hours_worked, employee_id, and job_type, but also an index and the report id to recall archived data from previous CSV uploads.
