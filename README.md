@@ -18,16 +18,18 @@ My API solution achieves these two goals:
 <br>
     
 * <strong>WaveApp</strong>: folder containing all data files
-    * <strong>1.tripadvisor_scraped_hotel_reviews.csv</strong>: webscraped data before any changes
-    * <strong>2.hotel_reviews_structured.csv</strong>: data after balancing and cleaning
-    * <strong>3.x_train_data.csv</strong>: training data with x values from preprocessed dataset
-    * <strong>3.y_train_data.csv</strong>: training data with y values from preprocessed dataset
-    * <strong>4.x_test_data.csv</strong>: test data with x values from preprocessed dataset
-    * <strong>4.y_test_data.csv</strong>: test data with y values from preprocessed dataset
+    * <strong>__init__.py</strong>: python file for intializing flask application
+    * <strong>views.py</strong>: python file with CSV_Upload and Payroll_Report endpoints for API
+    * <strong>models.py</strong>: python file with that declares models used in schema
 * <strong>run.py</strong>: python file to run application
 </details>
 
-## Models
+## Schema
+
+<details>
+<a name="Schema"></a>
+<summary>Show/Hide</summary>
+<br>
 
 ReportDocument:
 
