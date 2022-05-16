@@ -93,15 +93,6 @@ We've agreed to build an API with the following endpoints to serve HTTP requests
 <details>
 <summary>Show/Hide</summary>
 <br>
-    
-
-Please commit the following to this `README.md`:
-
-1. Instructions on how to build/run your application
-1. Answers to the following questions:
-   - How did you test that your implementation was correct?
-   - If this application was destined for a production environment, what would you add or change?
-   - What compromises did you have to make as a result of the time constraints of this challenge?
 
 </details>
 
@@ -112,14 +103,16 @@ Please commit the following to this `README.md`:
 <summary>Show/Hide</summary>
 <br>
   
-1. Did you follow the instructions for submission?
-1. Did you complete the steps outlined in the _Documentation_ section?
-1. Were models/entities and other components easily identifiable to the
-   reviewer?
-1. What design decisions did you make when designing your models/entities? Are
-   they explained?
-1. Did you separate any concerns in your application? Why or why not?
-1. Does your solution use appropriate data types for the problem as described?
+- What design decisions did I make when designing your models/entities?
+
+- How did I separate any concerns in my application? 
+
+- How did I test that your implementation was correct?
+    
+- If this application was destined for a production environment, what would I add or change?
+    
+- What compromises did I have to make as a result of the time constraints of this challenge?
+  
   
 </details>
 
