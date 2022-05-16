@@ -18,15 +18,8 @@ My API solution achieves these two goals:
 3. [ Endpoints ](#Endpoints)
 3. [ Technologies Used ](#Technologies_Used)
 4. [ Instructions ](#Instructions)
-   * [ 1. Webscraping, Early EDA, and Cleaning ](#Webscraping_Early_EDA_and_Cleaning)
-       * [ Webscraping ](#Webscraping)
-       * [ Early EDA and Cleaning](#Early_EDA_and_Cleaning)
-   * [ 2. Further EDA and Preprocessing ](#Further_EDA_and_Preprocessing) 
-   * [ 3. Modelling and Hyperparameter Tuning ](#Modelling)
-   * [ 4. Evaluation ](#Evaluation)
-       * [ Future Improvements ](#Future_Improvements)
-   * [ 5. Neural Network Modelling ](#Neural_Network_Modelling)
-   * [ 6. Revaluation and Deployment ](#Revaluation)
+5. [ Evaluation ](#Evaluation)
+
 </details>
 
 <a name="Repository_Files"></a>
@@ -111,18 +104,13 @@ Please commit the following to this `README.md`:
 
 </details>
 
-## Submission Instructions
-
-1. Clone the repository.
-1. Complete your project as described above within your local repository.
-1. Ensure everything you want to commit is committed.
-1. Create a git bundle: `git bundle create your_name.bundle --all`
-1. Email the bundle file to [dev.careers@waveapps.com](dev.careers@waveapps.com) and CC the recruiter you have been in contact with.
-
+<a name="Evaluation"></a>
 ## Evaluation
 
-Evaluation of your submission will be based on the following criteria.
-
+<details>
+<summary>Show/Hide</summary>
+<br>
+  
 1. Did you follow the instructions for submission?
 1. Did you complete the steps outlined in the _Documentation_ section?
 1. Were models/entities and other components easily identifiable to the
@@ -131,3 +119,13 @@ Evaluation of your submission will be based on the following criteria.
    they explained?
 1. Did you separate any concerns in your application? Why or why not?
 1. Does your solution use appropriate data types for the problem as described?
+  
+</details>
+
+## Submission Instructions
+
+1. Clone the repository.
+1. Complete your project as described above within your local repository.
+1. Ensure everything you want to commit is committed.
+1. Create a git bundle: `git bundle create your_name.bundle --all`
+1. Email the bundle file to [dev.careers@waveapps.com](dev.careers@waveapps.com) and CC the recruiter you have been in contact with.
