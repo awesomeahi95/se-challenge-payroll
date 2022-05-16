@@ -10,7 +10,16 @@ My API solution achieves these two goals:
 1. Upload a CSV file containing data on the number of hours worked per day per employee
 1. Retrieve a report detailing how much each employee should be paid in each _pay period_
 
-## Repository Files
+## Models
+
+ReportDocument
+This table is where all the data from the CSV file is stored. So all the columns: date, hours_worked, employee_id, and job_type, but also an index and the report id to recall archived data from previous CSV uploads.
+
+JobTypes
+This table is where the the job group and the wage for each job group is stored. This is used for calculating the amount paid for employees in the Payroll Report.
+
+Reports
+This table is for archiving the CSV report numbers for retrieving later and to check if an entry exist to avoid re-uploading identical data.
 
 ### What your API must do:
 
