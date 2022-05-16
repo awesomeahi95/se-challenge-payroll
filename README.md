@@ -14,11 +14,11 @@ My API solution achieves these two goals:
 <br>
 
 1. [ Repository Files ](#Repository_Files)
-2. [ Schema ](#Schema)    
-3. [ Endpoints ](#Endpoints)
-3. [ Technologies Used ](#Technologies_Used)
-4. [ Instructions ](#Instructions)
-5. [ Evaluation ](#Evaluation)
+2. [ Technologies Used ](#Technologies_Used)
+3. [ Schema ](#Schema)    
+4. [ Endpoints ](#Endpoints)
+5. [ Instructions ](#Instructions)
+6. [ Evaluation ](#Evaluation)
 
 </details>
 
@@ -34,6 +34,17 @@ My API solution achieves these two goals:
     * <strong>views.py</strong>: python file with CSV_Upload and Payroll_Report endpoints for API
     * <strong>models.py</strong>: python file with that declares models used in schema
 * <strong>run.py</strong>: python file to run application
+    
+</details>
+
+<a name="Technologies_Used"></a>
+## Technologies Used:
+
+<details>
+<summary>Show/Hide</summary>
+<br>
+
+  
 </details>
 
 <a name="Schema"></a>
@@ -74,16 +85,6 @@ We've agreed to build an API with the following endpoints to serve HTTP requests
 
    /getPayrollReport
 
-</details>
-
-<a name="Technologies_Used"></a>
-## Technologies Used:
-
-<details>
-<summary>Show/Hide</summary>
-<br>
-
-  
 </details>
 
 <a name="Instructions"></a>
