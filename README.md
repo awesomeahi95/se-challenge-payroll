@@ -64,14 +64,8 @@ We've agreed to build an API with the following endpoints to serve HTTP requests
 
 </details>
 
-We consider ourselves to be language agnostic here at Wave, so feel free to use any combination of technologies you see fit to both meet the requirements and showcase your skills. We only ask that your submission:
 
-- Is easy to set up
-- Can run on either a Linux or Mac OS X developer machine
-- Does not require any non open-source software
-- Includes all the source code you write for the submission, including any models used for setting up your database
-
-### Documentation:
+### Instructions:
 
 Please commit the following to this `README.md`:
 
