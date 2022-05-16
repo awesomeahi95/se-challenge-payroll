@@ -45,10 +45,10 @@ My API solution achieves these two goals:
 * <strong>run.py</strong>: python file to run application
 </details>
 
+<a name="Schema"></a>
 ## Schema
 
 <details>
-<a name="Schema"></a>
 <summary>Show/Hide</summary>
 <br>
 
@@ -66,10 +66,10 @@ This table is for archiving the CSV report numbers for retrieving later and to c
     
 </details>
 
+<a name="Endpoints"></a>
 ## Endpoints
 
 <details>
-<a name="Endpoints"></a>
 <summary>Show/Hide</summary>
 <br>
     
@@ -85,20 +85,20 @@ We've agreed to build an API with the following endpoints to serve HTTP requests
 
 </details>
 
+<a name="Technologies_Used"></a>
 ## Technologies Used:
 
 <details>
-<a name="Technologies_Used"></a>
 <summary>Show/Hide</summary>
 <br>
 
   
 </details>
 
+<a name="Instructions"></a>
 ## Instructions:
 
 <details>
-<a name="Instructions"></a>
 <summary>Show/Hide</summary>
 <br>
     
