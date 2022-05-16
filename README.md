@@ -18,7 +18,8 @@ My API solution achieves these two goals:
 1. [ Repository Files ](#Repository_Files)
 2. [ Schema ](#Schema)    
 3. [ Endpoints ](#Endpoints)
-4. [ EInstructions ](#Instructions)
+3. [ Technologies Used ](#Technologies_Used)
+4. [ Instructions ](#Instructions)
    * [ 1. Webscraping, Early EDA, and Cleaning ](#Webscraping_Early_EDA_and_Cleaning)
        * [ Webscraping ](#Webscraping)
        * [ Early EDA and Cleaning](#Early_EDA_and_Cleaning)
@@ -33,7 +34,7 @@ My API solution achieves these two goals:
 ## Repository Files
 
 <details>
-<a name="Repository Files"></a>
+<a name="Repository_Files"></a>
 <summary>Show/Hide</summary>
 <br>
     
@@ -65,7 +66,7 @@ This table is for archiving the CSV report numbers for retrieving later and to c
     
 </details>
 
-### Endpoints
+## Endpoints
 
 <details>
 <a name="Endpoints"></a>
@@ -84,8 +85,17 @@ We've agreed to build an API with the following endpoints to serve HTTP requests
 
 </details>
 
+## Technologies Used:
 
-### Instructions:
+<details>
+<a name="Technologies_Used"></a>
+<summary>Show/Hide</summary>
+<br>
+
+  
+</details>
+
+## Instructions:
 
 <details>
 <a name="Instructions"></a>
