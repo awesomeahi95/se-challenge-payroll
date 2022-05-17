@@ -34,6 +34,8 @@ My API solution achieves these two goals:
     * <strong>views.py</strong>: python file with CSV_Upload and Payroll_Report endpoints for API
     * <strong>models.py</strong>: python file with that declares models used in schema
 * <strong>run.py</strong>: python file to run application
+* <strong>requirements.txt</strong>: text file with dependencies for running application
+    
     
 </details>
 
