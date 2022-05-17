@@ -104,29 +104,29 @@ We've agreed to build an API with the following endpoints to serve HTTP requests
 ```
 python --version
 ```
-If you have ```Python 2.x.x``` follow '1.1. Python 3 Upgrade Command' command then continue. If you have ```Python 3.x.x``` ignore '1.1. Python 3 Upgrade Command' command and continue.
+If you have ```Python 2.x.x``` follow '2. Python 3 Upgrade Command' command then continue. If you have ```Python 3.x.x``` ignore '2. Python 3 Upgrade Command' command and continue.
     
-1.1. Python 3 Upgrade Command
+2. Python 3 Upgrade Command
 ```
 ```
     
-2. Check if you have pip
+3. Check if you have pip
 ```
 ```
-If you do not have pip follow '2.1. Install pip' command then continue. If you have pip installed ignore '2.1. Install pip' command and continue.
+If you do not have pip follow '4. Install pip' command then continue. If you have pip installed ignore '4. Install pip' command and continue.
     
-2.1. Install pip
+4. Install pip
 ```
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 python3 get-pip.py
 ```
     
-3. Install requirements.txt file to get required packages for running API.
+5. Install requirements.txt file to get required packages for running API.
 ```
 pip install -r requirements.txt 
 ```
     
-4. Run app.
+6. Run app.
 ```
 python3 run.py
 ```
