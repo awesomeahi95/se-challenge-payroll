@@ -15,7 +15,7 @@ My API solution achieves these two goals:
 
 1. [ Repository Files ](#Repository_Files)
 2. [ Technologies Used ](#Technologies_Used)
-3. [ Schema ](#Schema)    
+3. [ Models ](#Models)    
 4. [ Endpoints ](#Endpoints)
 5. [ Instructions ](#Instructions)
 6. [ Evaluation ](#Evaluation)
@@ -49,24 +49,28 @@ My API solution achieves these two goals:
   
 </details>
 
-<a name="Schema"></a>
-## Schema
+<a name="Models"></a>
+## Models
 
 <details>
 <summary>Show/Hide</summary>
 <br>
 
+TimeReportEntry:
+
+This table is where all the data from the CSV file is stored. So all the columns: date, hours_worked, employee_id, and job_group, but also an _id and the report_number to recall archived data from previous CSV uploads.
+
+Employee:
+    
+This table is where the employee_id(s) are stored along with the employee's job_group
+    
+Job:
+
+This table is where the the job_group and the wage for each job group is stored. This is used for calculating the amount paid for employees in the Payroll Report.
+
 ReportDocument:
 
-This table is where all the data from the CSV file is stored. So all the columns: date, hours_worked, employee_id, and job_type, but also an index and the report id to recall archived data from previous CSV uploads.
-
-JobTypes:
-
-This table is where the the job group and the wage for each job group is stored. This is used for calculating the amount paid for employees in the Payroll Report.
-
-Reports:
-
-This table is for archiving the CSV report numbers for retrieving later and to check if an entry exist to avoid re-uploading identical data.
+This table is for archiving the CSV report numbers/indexes for retrieving later and to check if an entry exist to avoid re-uploading identical data.
     
 </details>
 
@@ -85,7 +89,7 @@ We've agreed to build an API with the following endpoints to serve HTTP requests
 
 2. An endpoint for retrieving a payroll report structured in the following way:
 
-   /getPayrollReport
+   /getEmployeePay
 
 </details>
 
@@ -96,6 +100,19 @@ We've agreed to build an API with the following endpoints to serve HTTP requests
 <summary>Show/Hide</summary>
 <br>
 
+```
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+```
+```
+python3 get-pip.py
+```
+```
+pip install -r requirements.txt 
+```
+```
+python3 run.py
+```
+    
 </details>
 
 <a name="Evaluation"></a>
