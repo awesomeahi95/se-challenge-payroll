@@ -104,7 +104,7 @@ We've agreed to build an API with the following endpoints to serve HTTP requests
 ```
 python --version
 ```
-If you have ```Python 2.x.x``` follow '1.1. Python 3 Upgrade Command' command then continue. If python ```3.x.x``` ignore '1.1. Python 3 Upgrade Command' command and continue.
+If you have ```Python 2.x.x``` follow '1.1. Python 3 Upgrade Command' command then continue. If you have ```Python 3.x.x``` ignore '1.1. Python 3 Upgrade Command' command and continue.
     
 1.1. Python 3 Upgrade Command
 ```
