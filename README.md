@@ -100,30 +100,33 @@ We've agreed to build an API with the following endpoints to serve HTTP requests
 <summary>Show/Hide</summary>
 <br>
 
-Check if you have Python 3
+1. Check if you have Python 3
 ```
 python --version
 ```
-If Python 2.x.x follow upgrade command then continue. If python 3.x.x ignore upgrade command and continue.
+If Python 2.x.x follow '1.1 Python 3 Upgrade Command' command then continue. If python 3.x.x ignore '1.1 Python 3 Upgrade Command' command and continue.
     
-Python 3 Upgrade Command
+1.1 Python 3 Upgrade Command
 ```
 ```
-Check if you have pip
-```
-```
-If you do not have pip follow install with following install command then continue. If you have pip ignore install pip command and continue.
     
-Install pip command
+2. Check if you have pip
+```
+```
+If you do not have pip follow '2.1 Install pip' command then continue. If you have pip installed ignore '2.1 Install pip' command and continue.
+    
+2.1 Install pip
 ```
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 python3 get-pip.py
 ```
-Install requirements.txt file to get required packages for running API.
+    
+3. Install requirements.txt file to get required packages for running API.
 ```
 pip install -r requirements.txt 
 ```
-Run app.
+    
+4. Run app.
 ```
 python3 run.py
 ```
