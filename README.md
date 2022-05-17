@@ -46,6 +46,10 @@ My API solution achieves these two goals:
 <summary>Show/Hide</summary>
 <br>
 
+* Python 
+* Flask
+* SQLAlchemy
+* SQLite
   
 </details>
 
