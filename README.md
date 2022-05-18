@@ -187,6 +187,8 @@ python3 run.py
 <br>
   
 - What design decisions did I make when designing your models/entities?
+    * I expanded the original time report CSV table structure with a ```report_id``` that I extracted from the CSV name as well as a incremented index.
+    
 
 - How did I separate any concerns in my application? 
 
