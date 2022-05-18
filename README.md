@@ -1,5 +1,5 @@
 # Wave Software Development Challenge
-This is my solution for the se-challenge-payroll API task. I have predominantly used the Python programming language for this solution. I have detailed the instructions(#Instructions) to setup and run the API. I have also explained the files being used, the tools used, the layout of the database, how the endpoints work, and some evaluation.
+This is my solution for the se-challenge-payroll API task. I have predominantly used the Python programming language for this solution. I have detailed the [ instructions ](#Instructions) to setup and run the API. I have also explained the files being used, the tools used, the layout of the database, how the endpoints work, and some evaluation.
 
 ## Project Description
 
