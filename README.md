@@ -191,16 +191,22 @@ python3 run.py
     * I used SQLite as it requires no installation or configuration, to keep the app lite
     * I stuck with the unviersal company practice of keeping the ```employee_id``` as a String as opposed to an Integer which might traditionally be used for a number numerical index
     
-
 - How did I separate any concerns in my application? 
-
+    * I went for a high level of separation of concerns so the API is not as modular as it could be:
+        views - dealing with logic and endpoints
+        models - outlining the models for the tables in the sqlite database
+        
 - How did I test that your implementation was correct?
     * I manually tested the endpoints using Postman POST requests for uploading the CSV to the database and Postman GET requests for retrieving the JSON object for the pay report
     * I created another CSV file with a different ```report_id``` and slightly different data to check how the API endpoints would deal with both previously uploaded CSVs and new CSVs
     
 - If this application was destined for a production environment, what would I add or change?
+    * Thorough automated tests implemented for other potential error scenarios
+    * A frontend where a user would be able to upload a CSV file and also get a table output of the pay report
+    * Better separation of concerns using blueprints
     
 - What compromises did I have to make as a result of the time constraints of this challenge?
+    * I did not approach the API with a Test Driven Development approach - instead I created an API and tested/debugged with manaual testing with Postman
   
   
 </details>
