@@ -13,12 +13,12 @@ My API solution achieves these two goals:
 <summary>Show/Hide</summary>
 <br>
 
-1. [ Repository Files ](#Repository_Files)
-2. [ Technologies Used ](#Technologies_Used)
-3. [ Models ](#Models)    
-4. [ Endpoints ](#Endpoints)
-5. [ Instructions ](#Instructions)
-6. [ Evaluation ](#Evaluation)
+[ Repository Files ](#Repository_Files)
+[ Technologies Used ](#Technologies_Used)
+[ Models ](#Models)    
+[ Endpoints ](#Endpoints)
+[ Instructions ](#Instructions)
+[ Evaluation ](#Evaluation)
 
 </details>
 
