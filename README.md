@@ -105,34 +105,42 @@ We've agreed to build an API with the following endpoints to serve HTTP requests
     
 ```
 {
-  "payrollReport": {
-    "employeeReports": [
-      {
-        "employeeId": "1",
-        "payPeriod": {
-          "startDate": "2023-01-01",
-          "endDate": "2023-01-15"
-        },
-        "amountPaid": "$300.00"
-      },
-      {
-        "employeeId": "1",
-        "payPeriod": {
-          "startDate": "2023-01-16",
-          "endDate": "2023-01-31"
-        },
-        "amountPaid": "$80.00"
-      },
-      {
-        "employeeId": "2",
-        "payPeriod": {
-          "startDate": "2023-01-16",
-          "endDate": "2023-01-31"
-        },
-        "amountPaid": "$90.00"
-      }
-    ]
-  }
+    "payrollReport": {
+        "employeeReports": [
+            {
+                "amountPaid": 150.0,
+                "employeeId": 1,
+                "payPeriod": {
+                    "endDate": "2023-11-15",
+                    "startDate": "2023-11-01"
+                }
+            },
+            {
+                "amountPaid": 220.0,
+                "employeeId": 1,
+                "payPeriod": {
+                    "endDate": "2023-11-31",
+                    "startDate": "2023-11-16"
+                }
+            },
+            {
+                "amountPaid": 930.0,
+                "employeeId": 2,
+                "payPeriod": {
+                    "endDate": "2023-11-15",
+                    "startDate": "2023-11-01"
+                }
+            },
+            {
+                "amountPaid": 930.0,
+                "employeeId": 2,
+                "payPeriod": {
+                    "endDate": "2023-12-15",
+                    "startDate": "2023-12-01"
+                }
+            }
+        ]
+    }
 }
 ```
 
