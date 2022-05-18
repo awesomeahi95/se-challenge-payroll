@@ -1,5 +1,5 @@
 # Wave Software Development Challenge
-This is my solution for the se-challenge-payroll API task. I have predominantly used the Python programming language for this solution. I have detailed the [ instructions ](#Instructions) to setup and run the API. I have also explained the files being used, the tools used, the layout of the database, how the endpoints work, and some evaluation.
+This is my solution for the se-challenge-payroll API task. I have predominantly used the Python programming language for this solution. I have detailed the [ instructions ](#Instructions) to setup and run the API. I have also explained the files being used, the tools.technologies used, the layout of the database, how the endpoints work, and some evaluation.
 
 ## Project Description
 
@@ -32,7 +32,7 @@ My API solution achieves these two goals:
 * <strong>WaveApp</strong>: folder containing all data files
     * <strong>__init__.py</strong>: python file for intializing flask application
     * <strong>views.py</strong>: python file with CSV_Upload and Payroll_Report endpoints for API
-    * <strong>models.py</strong>: python file with that declares models used in schema
+    * <strong>models.py</strong>: python file with that declares models used in database
 * <strong>run.py</strong>: python file to run application
 * <strong>requirements.txt</strong>: text file with dependencies for running application
     
