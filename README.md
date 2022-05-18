@@ -187,9 +187,9 @@ python3 run.py
 <br>
   
 - What design decisions did I make when designing your models/entities?
-    * I expanded the original time report CSV table structure with a ```report_id``` that I extracted from the CSV name as well as a incremented index
+    * I expanded the original time report CSV table structure with a ```report_id``` that I extracted from the CSV file name and an incremental index for entries
     * I used SQLite as it requires no installation or configuration, to keep the app lite
-    * I stuck with the unviersal company practice of keeping the ```employee_id``` as a String as opposed to an Integer which might traditionally be used for a number numerical index
+    * I stuck with the universal company practice of keeping the ```employee_id``` as a String (as opposed to an Integer that may traditionally be used for a numerical index)
     
 - How did I separate any concerns in my application? 
     * I went for a high level of separation of concerns so the API is not as modular as it could be:
@@ -201,12 +201,13 @@ python3 run.py
     * I created another CSV file with a different ```report_id``` and slightly different data to check how the API endpoints would deal with both previously uploaded CSVs and new CSVs
     
 - If this application was destined for a production environment, what would I add or change?
-    * Thorough automated tests implemented for other potential error scenarios
+    * Thorough automated tests implemented for more potential error scenarios
     * A frontend where a user would be able to upload a CSV file and also get a table output of the pay report
     * Better separation of concerns using blueprints
     
 - What compromises did I have to make as a result of the time constraints of this challenge?
-    * I did not approach the API with a Test Driven Development approach - instead I created an API and tested/debugged with manaual testing with Postman
+    * I did not approach the API with a Test Driven Development approach - instead I created an API and tested/debugged manually with Postman
+    * I had less modularity with the layers of the API as the solution's delivery was prioritized over better practices with separation of concerns which would benefit future development
   
   
 </details>
