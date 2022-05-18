@@ -95,11 +95,46 @@ We've agreed to build an API with the following endpoints to serve HTTP requests
 
 <strong>/uploadCSV</strong>
 
-When a new time report CSV is uploaded to this endpoint it will upload the CSV data to the sqlite database and return a String ```Successfully Uploaded```. If a time report ```time-report-{report_id}.csv``` has already been uploaded with the same report_id it will not be uploaded to the database and will return a String ```Time Report Entry Previously Submitted, Please Try Another File```.
+When a new time report CSV is uploaded to this endpoint it will upload the CSV data to the sqlite database and return a String ```Successfully Uploaded```. If a time report ```time-report-{report_id}.csv``` has already been uploaded with the same ```report_id``` it will not be uploaded to the database and will return a String ```Time Report Entry Previously Submitted, Please Try Another File```.
 
 2. An endpoint for retrieving a payroll report structured in the following way:
 
 <strong>/getEmployeePay</strong>
+    
+This endpoint will return a JSON object with an employee pay report that looks like this:
+    
+```
+{
+  "payrollReport": {
+    "employeeReports": [
+      {
+        "employeeId": "1",
+        "payPeriod": {
+          "startDate": "2023-01-01",
+          "endDate": "2023-01-15"
+        },
+        "amountPaid": "$300.00"
+      },
+      {
+        "employeeId": "1",
+        "payPeriod": {
+          "startDate": "2023-01-16",
+          "endDate": "2023-01-31"
+        },
+        "amountPaid": "$80.00"
+      },
+      {
+        "employeeId": "2",
+        "payPeriod": {
+          "startDate": "2023-01-16",
+          "endDate": "2023-01-31"
+        },
+        "amountPaid": "$90.00"
+      }
+    ]
+  }
+}
+```
 
 </details>
 
