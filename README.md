@@ -60,6 +60,10 @@ My API solution achieves these two goals:
 <summary>Show/Hide</summary>
 <br>
 
+<p align="center">
+  <img src="https://github.com/awesomeahi95/se-challenge-payroll/ModelsDiagram.png" width=600>
+</p>    
+    
 TimeReportEntry:
 
 This table is where all the data from the CSV file is stored. So all the columns: date, hours_worked, employee_id, and job_group, but also an _id and the report_number to recall archived data from previous CSV uploads.
