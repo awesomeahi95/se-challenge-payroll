@@ -25,7 +25,7 @@ My API solution achieves these two goals:
 <a name="Repository_Files"></a>
 ## Repository Files
 
-<details>
+<details open>
 <summary>Show/Hide</summary>
 <br>
     
@@ -42,7 +42,7 @@ My API solution achieves these two goals:
 <a name="Technologies_Used"></a>
 ## Technologies Used:
 
-<details>
+<details open>
 <summary>Show/Hide</summary>
 <br>
 
@@ -56,7 +56,7 @@ My API solution achieves these two goals:
 <a name="Models"></a>
 ## Models
 
-<details>
+<details open>
 <summary>Show/Hide</summary>
 <br>
 
@@ -85,7 +85,7 @@ This table is for archiving the CSV report ```report_index``` for retrieving lat
 <a name="Endpoints"></a>
 ## Endpoints
 
-<details>
+<details open>
 <summary>Show/Hide</summary>
 <br>
     
@@ -141,7 +141,7 @@ We've agreed to build an API with the following endpoints to serve HTTP requests
 <a name="Instructions"></a>
 ## Instructions:
 
-<details>
+<details open>
 <summary>Show/Hide</summary>
 <br>
 
@@ -181,7 +181,7 @@ python3 run.py
 <a name="Evaluation"></a>
 ## Evaluation
 
-<details>
+<details open>
 <summary>Show/Hide</summary>
 <br>
   
