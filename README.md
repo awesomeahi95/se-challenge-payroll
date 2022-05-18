@@ -70,7 +70,7 @@ This table is where all the data from the CSV file is stored. So all the columns
 
 <strong>Employee:</strong>
     
-This table is where the ```employee_id```(s) are stored along with the employee's ```job_group```.
+This table is where the ```employee_id``` are stored along with the employee's ```job_group```.
     
 <strong>Job:</strong>
 
