@@ -187,7 +187,7 @@ python3 run.py
 <br>
   
 - What design decisions did I make when designing your models/entities?
-    * I expanded the original time report CSV table structure with a ```report_id``` that I extracted from the CSV name as well as a incremented index.
+    * I expanded the original time report CSV table structure with a ```report_id``` that I extracted from the CSV name as well as a incremented index
     * I used SQLite as it requires no installation or configuration, to keep the app lite
     * I stuck with the unviersal company practice of keeping the ```employee_id``` as a String as opposed to an Integer which might traditionally be used for a number numerical index
     
@@ -195,6 +195,8 @@ python3 run.py
 - How did I separate any concerns in my application? 
 
 - How did I test that your implementation was correct?
+    * I manually tested the endpoints using Postman POST requests for uploading the CSV to the database and Postman GET requests for retrieving the JSON object for the pay report
+    * I created another CSV file with a different ```report_id``` and slightly different data to check how the API endpoints would deal with both previously uploaded CSVs and new CSVs
     
 - If this application was destined for a production environment, what would I add or change?
     
