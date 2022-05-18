@@ -93,11 +93,13 @@ We've agreed to build an API with the following endpoints to serve HTTP requests
 
 1. An endpoint for uploading a file.
 
-   /uploadCSV
+<strong>/uploadCSV<\strong>
+
+When a new time report CSV is uploaded to this endpoint it will upload the CSV data to the sqlite database and return a String ```Successfully Uploaded```. If a time report ```time-report-{report_id}.csv``` has already been uploaded with the same report_id it will not be uploaded to the database and will return a String ```Time Report Entry Previously Submitted, Please Try Another File```.
 
 2. An endpoint for retrieving a payroll report structured in the following way:
 
-   /getEmployeePay
+<strong>/getEmployeePay<\strong>
 
 </details>
 
