@@ -149,8 +149,9 @@ We've agreed to build an API with the following endpoints to serve HTTP requests
     
 ### 1. Check if you have pip
 ```
+pip -V
 ```
-If you do not have pip installed follow <strong>2. Install pip</strong> command then continue. If you have pip installed skip to <strong>3. Install dependencies</strong>.
+If you do not have pip installed follow <strong>2. Install pip</strong> command then continue. If you have pip installed skip to <strong>3. Install dependencies</strong> command.
     
 ### 2. Install pip
 ```
