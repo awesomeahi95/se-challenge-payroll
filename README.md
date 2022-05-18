@@ -61,7 +61,7 @@ My API solution achieves these two goals:
 <br>
 
 <p align="center">
-  <img src="https://github.com/awesomeahi95/se-challenge-payroll/ModelsDiagram.png" width=600>
+  <img src="https://github.com/awesomeahi95/se-challenge-payroll/blob/master/ModelsDiagram.png" width=600>
 </p>    
     
 TimeReportEntry:
